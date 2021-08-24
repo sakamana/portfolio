@@ -14,3 +14,27 @@ body {
   .contena p{
     color: white;
   }
+
+  .art {
+    width: 100px;
+    height: 100px;
+    background: white;
+  }
+
+  .threed {
+    width: 100px;
+    height: 100px;
+    background: white;
+  }
+
+  .web {
+    width: 100px;
+    height: 100px;
+    background: white;
+  }
+
+  .game {
+    width: 100px;
+    height: 100px;
+    background: white;
+  }
