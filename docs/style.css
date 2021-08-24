@@ -4,8 +4,9 @@ body {
   #threeJS {
     position: fixed;
   }
-  .blank {
+  .contena {
+    display: flex;
     width: 1000vh;
-    overflow-x: auto;
+    overflow-x: scroll;
     white-space: nowrap;
   }
