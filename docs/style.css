@@ -9,7 +9,7 @@ body {
     display: flex;
     width: 1000vh;
     overflow-x: scroll;
-    /* white-space: nowrap; */
+    white-space: nowrap;
   }
 
   .contena p{
