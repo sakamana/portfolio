@@ -10,8 +10,8 @@ scene.add( cube );
 camera.position.z = 5;
 const animate = function () {
   requestAnimationFrame( animate );
-  cube.rotation.x = window.scrollY * 0.1;
-  cube.rotation.y = window.scrollY * 0.1;
+  cube.rotation.x = window.scrollX * 0.1;
+  cube.rotation.y = window.scrollX * 0.1;
   renderer.render( scene, camera );
 };
 animate();

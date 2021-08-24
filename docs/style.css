@@ -5,5 +5,5 @@ body {
     position: fixed;
   }
   .blank {
-    height: 1000vh;
+    width: 1000vh;
   }
