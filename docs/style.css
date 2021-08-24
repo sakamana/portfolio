@@ -6,4 +6,6 @@ body {
   }
   .blank {
     width: 1000vh;
+    overflow-x: auto;
+    white-space: nowrap;
   }
