@@ -10,3 +10,7 @@ body {
     overflow-x: scroll;
     white-space: nowrap;
   }
+
+  .contena p{
+    color: white;
+  }
