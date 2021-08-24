@@ -5,6 +5,7 @@ body {
     position: fixed;
   }
   .contena {
+    position: relative;
     display: flex;
     width: 1000vh;
     overflow-x: scroll;
@@ -16,24 +17,36 @@ body {
   }
 
   .art {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100px;
     height: 100px;
     background: white;
   }
 
   .threed {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100px;
     height: 100px;
     background: white;
   }
 
   .web {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100px;
     height: 100px;
     background: white;
   }
 
   .game {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100px;
     height: 100px;
     background: white;
