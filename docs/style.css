@@ -56,3 +56,7 @@ background-color: #3eb370;
 .box_7{
 background-color: #aa4c8f;
 }
+
+p{
+  writing-mode: vertical-rl;
+}
