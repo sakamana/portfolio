@@ -1,54 +1,58 @@
 body {
-    margin: 0;
-  }
-  #threeJS {
-    position: fixed;
-  }
-  .contena {
-    position: relative;
-    display: flex;
-    width: 1000vh;
-    height: 100vh;
-    overflow-x: scroll;
-    white-space: nowrap;
-  }
+  margin: 0;
+}
+#threeJS {
+  position: fixed;
+}
+.wrap{
+position: relative;
+display: flex;
+/*   overflow-x: scroll; */
+flex-wrap: nowrap;
+width: 1000vh;
+height: 100vh;
+}
 
-  .contena p{
-    color: white;
-  }
+.box_1,
+.box_2,
+.box_3,
+.box_4,
+.box_5,
+.box_6,
+.box_7{
+color: #FFF;
+width:80px;
+height:80vh;
+margin-top: 10vh;
+margin-right: 20px;
+}
 
-  .art {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100px;
-    height: 100px;
-    background: white;
-  }
+.box_1 {
+background-color: #f09199;
+}
 
-  .threed {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100px;
-    height: 100px;
-    background: white;
-  }
+.box_2{
+background-color: #ec6d71;
+}
 
-  .web {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100px;
-    height: 100px;
-    background: white;
-  }
+.box_3{
+background-color: #c3d825;
+}
 
-  .game {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100px;
-    height: 100px;
-    background: white;
-  }
+.box_4{
+background-color: #2ca9e1;
+}
+
+.box_5{
+background-color: #fef263;
+}
+
+
+.box_6{
+background-color: #3eb370;
+}
+
+
+.box_7{
+background-color: #aa4c8f;
+}
