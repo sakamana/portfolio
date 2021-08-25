@@ -9,9 +9,9 @@ const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
 camera.position.z = 5;
 const animate = function () {
-  requestAnimationFrame( animate );
-  cube.rotation.x = window.scrollX * 0.1;
-  cube.rotation.y = window.scrollX * 0.1;
+  cube.rotation.x = cube.rotation.x + 0.01;
+  cube.rotation.y = cube.rotation.y + 0.01;
   renderer.render( scene, camera );
+  requestAnimationFrame( animate );
 };
 animate();
