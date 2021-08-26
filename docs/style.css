@@ -1,85 +1,153 @@
 body {
-  margin: 0;
-}
-#threeJS {
-  position: fixed;
-}
-.wrap{
-position: relative;
-display: flex;
-/*   overflow-x: scroll; */
-flex-wrap: nowrap;
-width: 1000vh;
-height: 100vh;
-}
-
-.box_1,
-.box_2,
-.box_3,
-.box_4,
-.box_5,
-.box_6,
-.box_7{
-background-color: #4e4e4e;
-  opacity:0.8;
-width:150px;
-height:80vh;
-margin-top: 10vh;
-margin-right: 100px;
-}
-
-.box_1:hover {
-background-color: #f09199;
-}
-.box_1{
+     margin: 0;
+   }
+   #threeJS {
+     position: fixed;
+   }
+   header {
+     position: relative;
+     display: flex;
+     width: 100%;
+     height: 100px;
+     background-color: darkgrey;
+     align-items: center;
+   }
+    
+   .title {
+     margin-right: auto;
+   }
+    
+   .menu-item {
+     list-style: none;
+     display: inline-block;
+     padding: 10px;
+   }
+   .wrap{
+   position: relative;
+   display: flex;
+   /*   overflow-x: scroll; */
+   flex-wrap: nowrap;
+   width: 1000vh;
+   height: 100vh;
+   }
+   
+   .box_1,
+   .box_2,
+   .box_3,
+   .box_4,
+   .box_5,
+   .box_6,
+   .box_7{
+     position:relative;
+   background-color: #4e4e4e;
+     opacity:0.8;
+   width:150px;
+   height:80vh;
+   margin-top: 10vh;
+   margin-right: 100px;
      transition: 0.5s;
-}
-
-.box_2:hover{
-background-color: #ec6d71;
-}
-.box_2{
-     transition: 0.5s;
-}
-
-.box_3:hover{
-background-color: #c3d825;
-}
-.box_3{
-     transition: 0.5s;
-}
-
-.box_4:hover{
-background-color: #2ca9e1;
-}
-.box_4{
-     transition: 0.5s;
-}
-
-.box_5:hover{
-background-color: #fef263;
-}
-.box_5{
-     transition: 0.5s;
-}
-
-
-.box_6:hover{
-background-color: #3eb370;
-}
-.box_6{
-     transition: 0.5s;
-}
-
-.box_7:hover{
-background-color: #aa4c8f;
-}
-.box_7{
-     transition: 0.5s;
-}
-
-p{
-  color: #FFF;
-  margin-top:37vh;
-  margin-left:10px;
-}
+   }
+   
+   .box_1:hover {
+   background-color: #f09199;
+   }
+   
+   
+   .box_2:hover{
+   background-color: #ec6d71;
+   }
+   
+   
+   .box_3:hover{
+   background-color: #c3d825;
+   }
+   
+   
+   .box_4:hover{
+   background-color: #2ca9e1;
+   }
+   
+   .box_5:hover{
+   background-color: #fef263;
+   }
+   
+   
+   
+   .box_6:hover{
+   background-color: #3eb370;
+   }
+   
+   
+   .box_7:hover{
+   background-color: #aa4c8f;
+   }
+   
+   
+   p{
+     color: #FFF;
+     margin-top:37vh;
+     margin-left:10px;
+   }
+   
+   .box_1 .Link{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .box_2 .Link{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .box_3 .Link{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .box_4 .Link{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .box_5 .Link{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .box_6 .Link{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
+   
+   .box_7 .Link{
+       display: block;
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+   }
